@@ -218,3 +218,66 @@ img{
     font-size: 2rem;
     line-height: 2;
 }
+
+/* --- Bloque Modelos ---  */
+.modelos{
+    pad: var(--separacion) 0;
+}
+.header-modelos{
+    font-size: 6rem;
+    margin-bottom: var(--separacion);
+}
+.listado-modelos{
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.modelo{
+    background-color: var(--grisClaro);
+    margin-bottom: 2rem;
+    padding-left: 4rem;
+    color: var(--colorPrimario);
+    border-radius: 2rem;
+    min-height: 20rem;
+    background-repeat: no-repeat;
+    background-position: 90% center;
+    background-size: 15rem;
+}
+@media (min-width: 768px ) { 
+    .modelo{
+        background-color: var(--grisClaro);
+        margin-bottom: 2rem;
+        padding-left: 4rem;
+        color: var(--colorPrimario);
+        border-radius: 2rem;
+        min-height: 20rem;
+        background-repeat: no-repeat;
+        background-position: 90% center;
+        background-size: 30rem;
+    }
+}
+.modelo h3{
+    font-size: 2.4rem;
+}
+.modelo .precio{
+    font-size: 4rem;
+    font-weight: 900;
+    line-height: 0;
+}
+.modelo:first-of-type{
+    margin-bottom: 0;
+}
+.modelo-y{
+    background-image: url(../img/modelo-y.svg);
+}
+.modelo-x{
+    background-image: url(../img/modelo-x.svg);
+}
+.modelo-z{
+    background-image: url(../img/modelo-z.svg);
+    color: var(--blanco);
+    background-color: var(--colorPrimario);
+}
+.modelo-z .precio{
+    font-size: 6rem;
+}

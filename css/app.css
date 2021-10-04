@@ -187,7 +187,6 @@ img{
     .sobre-tech{
         background-image: linear-gradient(to left, transparent 50%, var(--colorPrimario) 0%), url(../img/imagen-mujer.jpg);
         background-repeat: repeat, no-repeat;
-        background-size: 100%, 140rem;
     }
 }
 .sobre-tech-grid{
@@ -202,6 +201,7 @@ img{
         grid-template-columns: repeat(2, 1fr);
         column-gap: 4rem;
         padding: calc(var(--separacion) * 2);
+        padding: var(--separacion);
     }   
 }
 .texto-sobre-tech{

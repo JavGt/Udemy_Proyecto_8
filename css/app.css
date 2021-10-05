@@ -231,7 +231,7 @@ img{
     display: flex;
     flex-direction: column-reverse;
 }
-@media (min-width: 768px ) { 
+@media (min-width: 992px ) { 
     .listado-modelos{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
@@ -297,7 +297,7 @@ img{
     color: var(--blanco);
     background-color: var(--colorPrimario);
 }
-@media (min-width: 768px ) { 
+@media (min-width: 992px ) { 
     .modelo-z{
         grid-column: 2/3;
         grid-row: 1 / 3;

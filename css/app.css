@@ -361,7 +361,6 @@ img{
     width: 100%;
     padding: 1rem;
     border: 1px solid var(--grisClaro);
-    padding: 1.5rem;
 }
 
 .formulario input[type="submit"]{
@@ -383,5 +382,6 @@ img{
     font-size: 2rem;
     color: var(--colorPrimario);
     padding: 2rem 0;
+    margin:var(--separacion) 0;
 }
 

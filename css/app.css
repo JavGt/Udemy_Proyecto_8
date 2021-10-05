@@ -381,7 +381,7 @@ img{
     text-align: center;
     font-family: var(--fuentesSecundaria);
     text-transform: uppercase;
-    font-size: 1rem;
+    font-size: 1.6rem;
     color: var(--colorPrimario);
 }
 @media (min-width: 768px ) { 
